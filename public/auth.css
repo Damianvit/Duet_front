@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.auth * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.auth html {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+.auth body {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+
+.auth .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem 0.5rem;
+}
+
+.auth section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.auth form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+.auth a,
+.auth a:visited {
+    color: #fff;
+}
+
+.auth input[type="text"],
+.auth input[type="password"],
+.auth button,
+.auth textarea {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.auth label,
+.auth button {
+    margin-top: 1rem;
+}
+
+.auth button {
+    padding: 0.5rem;
+}
+
+.auth li {
+    list-style-type: none;
+}
+
+.auth .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.auth .instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.auth .offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.auth .hide {
+    display: none;
+}
+
+.auth .valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.auth .invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.auth .errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.auth .line {
+    display: inline-block;
+}
+
+.auth .flexGrow {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
